@@ -79,7 +79,7 @@ I completed the CS50 course from Harvard on July 4, 2023, and it was a great exp
 
 CS50 Certificate Link: https://cs50.harvard.edu/certificates/2bb6d401-37a7-4099-b095-581a36b3e05f
 
-<img src="CS50x.pdf"  width= 100%>
+<img src="cs50x.png"  width= 100%>
 
 Verified Certificate From edX: https://courses.edx.org/certificates/2b77511d54e640f49869bc691a639c38?_gl=1*agmozv*_ga*MTUwMjQwNDMwNC4xNjk5OTUwNDA2*_ga_D3KS4KMDT0*MTcwMDQ4NTQxOC42LjEuMTcwMDQ4NTUxOS4yNi4wLjA.
 
