@@ -44,6 +44,8 @@ includes a custom JavaScript function that scrolls the page to the "Buy Now" sec
 Overall, the HTML file creates a visually appealing and interactive tribute page for "Life is Strange: True Colors," providing users with information
 about the game, a captivating video trailer, and convenient options to purchase the game from various platforms.
 
+<img src="HomePage1.png"  width= 100%>
+<img src="Buy.png"  width= 100%>
 
 #### FAQ HTML FILE:
 
