@@ -12,9 +12,6 @@ If users click on the "FAQ" tab, they are seamlessly taken to the FAQ page, whic
 The "Games" option functions as a dropdown menu, providing a comprehensive list of Life Is Strange games.
 Clicking on any of the game options redirects users to the official page for that specific game.
 The center of the navigation bar features the game's logo, which serves as a link to the official game page.
-
-<img src="HomePage.png"  width= 100%>
-
 When users hover their cursor over the logo, a subtle zoom effect enhances the interactive experience.
 By incorporating these features into the website, I aimed to create a user-friendly and immersive environment that replicates the authenticity of the
 official game site.
@@ -35,6 +32,7 @@ attributes and links.
 Below the navigation bar, there is an image container that displays the main image of the game along with a video overlay. The overlay contains an
 embedded YouTube video trailer, which is responsive and adjusts to the width of the container. Additionally, there is a "Buy" button positioned on top
 of the video overlay, which triggers a function to scroll to the next section of the page.
+<img src="HomePage.png"  width= 100%>
 After the image container, there is a section with a title and paragraphs that describe the essence of "Life is Strange." It highlights the series as a
 collection of award-winning and critically acclaimed narrative adventure games. The text emphasizes the presence of supernatural powers, real-life
 challenges, relationships, and emotions within the game's universe.
