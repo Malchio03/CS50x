@@ -38,6 +38,7 @@ Lecture 08 - HTML, CSS, JavaScript <br>
 Lecture 09 - Flask <br>
 Lecture 10 - Emoji <br>
 Cybersecurity <br>
+Final Project <br>
 
 ## Instructors
 
