@@ -1,3 +1,4 @@
+/* Reset styles for dropdown links in the navigation bar */
 li.nav-item.dropdown > a.nav-link:focus,
 li.nav-item.dropdown > a.nav-link:hover,
 li.nav-item.dropdown > a.nav-link:active {
@@ -5,6 +6,7 @@ li.nav-item.dropdown > a.nav-link:active {
   box-shadow: none;
 }
 
+/* Styles for the navigation bar and logo */
 .navbar-brand {
   position: absolute;
   left: 50%;
@@ -15,25 +17,23 @@ li.nav-item.dropdown > a.nav-link:active {
   margin-left: 0;
 }
 
-
 .navbar-collapse {
   margin-left: -15px;
 }
 
-
-
+/* Styles for the logo image */
 .logo-img {
-  width: 70px; /* Imposta la larghezza desiderata */
-  height: 25px; /* Imposta l'altezza desiderata */
+  width: 70px;
+  height: 25px;
   transition: transform 0.3s;
 }
 
-
 .logo-img:hover {
-  transform: scale(1.2); /* Applica uno zoom del 120% al logo quando si passa il cursore sopra */
+  transform: scale(1.2);
   cursor: pointer;
 }
 
+/* Styles for the first image with the class "first-img" */
 .first-img {
   width: 100%;
   height: auto;
@@ -41,20 +41,17 @@ li.nav-item.dropdown > a.nav-link:active {
   margin-top: 50px;
 }
 
-
-
-
+/* Styles for the image container and video overlay */
 .image-container {
   position: relative;
 }
-
 
 .video-overlay {
   position: absolute;
   bottom: 90px;
   right: 0;
-  width: 40%; /* Imposta la larghezza desiderata per il video */
-  padding-bottom: 22.5%; /* Imposta l'aspect ratio del video (rapporto larghezza/altezza) */
+  width: 40%;
+  padding-bottom: 22.5%;
 }
 
 .video-overlay iframe {
@@ -65,14 +62,15 @@ li.nav-item.dropdown > a.nav-link:active {
   height: 100%;
 }
 
-
+/* Styles for a button with the ID "button" */
 #button {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -40px; /* Imposta la distanza desiderata dal fondo */
+  bottom: -40px;
 }
 
+/* Styles for game information */
 .game-info {
   display: none;
   position: fixed;
@@ -90,11 +88,10 @@ li.nav-item.dropdown > a.nav-link:active {
   display: block;
 }
 
-
-
+/* Styles for the separator and title */
 .separator {
   text-align: center;
-  background-color: #DBDBDB; /* Colore di sfondo grigio chiaro */
+  background-color: #DBDBDB;
   padding: 20px;
   padding-bottom: 40px;
 }
@@ -106,14 +103,16 @@ li.nav-item.dropdown > a.nav-link:active {
 }
 
 .separator p {
-  margin: 10px 0; /* Spaziatura tra i paragrafi */
+  margin: 10px 0;
 }
 
+/* General paragraph styles */
 p {
   font-family: 'Roboto', sans-serif;
   color: #666666;
 }
 
+/* Styles for the GIF section */
 .gif {
   background-image: url("https://64.media.tumblr.com/f69d8b3277529c6f21c57067406b5554/b7f25f192918d9e1-68/s640x960/af5253ac080c3a39f7bc62f6d9abfc6d7f09fb05.gif");
   background-repeat: no-repeat;
@@ -121,7 +120,6 @@ p {
   width: 100%;
   height: 770px;
 }
-
 
 .gif_title {
   display: block;
@@ -135,15 +133,12 @@ p {
   cursor: default;
 }
 
-
 .gif_title:hover {
   background-color: #333333;
   color: #f1be32;
 }
 
-
-
-
+/* Styles for platform images and buttons */
 .ps5,
 .ps4,
 .s,
@@ -151,16 +146,13 @@ p {
   width: 100%;
   height: auto;
   object-fit: cover;
-
 }
-
 
 .button-container {
   width: 100%;
   text-align: center;
   margin-top: 300px;
 }
-
 
 .button {
   display: inline-block;
@@ -174,20 +166,20 @@ p {
   border: 4px solid yellow;
 }
 
-
-@media (max-width: 768px){
+/* Responsive styles for small screens */
+@media (max-width: 768px) {
   .button-container {
     display: block;
     margin-top: 150px;
-  }}
-
-  h1{
-    margin-top:90px;
   }
-
-  .dropdown-toggle {
-    white-space: normal !important;
-    word-wrap: break-word;
+  
+  h1 {
+    margin-top: 90px;
+  }
 }
 
-
+/* Styles for dropdown toggle to handle long text */
+.dropdown-toggle {
+  white-space: normal !important;
+  word-wrap: break-word;
+}
