@@ -54,3 +54,4 @@ This HTML code represents a web page designed to provide answers to the most com
 Asked Questions) section of a website, specifically related to the game "Life is Strange". The purpose of this page is to address and provide solutions
 to the common queries and concerns that users may have.
 The page has a total of 10 questions. Whenever a user clicks on a dropdown question, the corresponding answer is displayed, highlighted in yellow.
+<img src="faq.png"  width= 100%>
