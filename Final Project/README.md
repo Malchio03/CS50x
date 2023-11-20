@@ -12,7 +12,9 @@ If users click on the "FAQ" tab, they are seamlessly taken to the FAQ page, whic
 The "Games" option functions as a dropdown menu, providing a comprehensive list of Life Is Strange games.
 Clicking on any of the game options redirects users to the official page for that specific game.
 The center of the navigation bar features the game's logo, which serves as a link to the official game page.
-# <img src="Homepage.png" height=20>&nbsp;
+
+# <img src="Homepage.png" height=200>&nbsp;
+
 When users hover their cursor over the logo, a subtle zoom effect enhances the interactive experience.
 By incorporating these features into the website, I aimed to create a user-friendly and immersive environment that replicates the authenticity of the
 official game site.
