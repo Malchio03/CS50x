@@ -36,6 +36,7 @@ of the video overlay, which triggers a function to scroll to the next section of
 After the image container, there is a section with a title and paragraphs that describe the essence of "Life is Strange." It highlights the series as a
 collection of award-winning and critically acclaimed narrative adventure games. The text emphasizes the presence of supernatural powers, real-life
 challenges, relationships, and emotions within the game's universe.
+<img src="HomePage1.png"  width= 100%>
 Following that, there is a section dedicated to the "Buy Now" option. It includes a title, "BUY NOW," and a container with four buttons representing
 different platforms where the game can be purchased. Each button is a clickable image with a link to the corresponding platform's store page. The
 platforms include PlayStation 5, Xbox, Steam, and Playstation4.
@@ -44,7 +45,7 @@ includes a custom JavaScript function that scrolls the page to the "Buy Now" sec
 Overall, the HTML file creates a visually appealing and interactive tribute page for "Life is Strange: True Colors," providing users with information
 about the game, a captivating video trailer, and convenient options to purchase the game from various platforms.
 
-<img src="HomePage1.png"  width= 100%>
+
 <img src="Buy.png"  width= 100%>
 
 #### FAQ HTML FILE:
