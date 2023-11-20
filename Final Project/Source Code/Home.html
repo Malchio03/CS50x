@@ -2,35 +2,44 @@
 <html lang="en">
 
 <head>
+    <!-- Meta tags for character set, viewport, and page information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Page" content="Build My Page">
+
+    <!-- Bootstrap stylesheet link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom stylesheet link -->
     <link href="styles.css" rel="stylesheet">
 
+    <!-- Page title -->
     <title>Life is Strange: True Colors</title>
 </head>
 
 <body>
+    <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-
+            <!-- Navigation links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
+                        <!-- Home link with scroll function -->
                         <a class="nav-link" href="#" onclick="scrollToHome()">Home <span class="sr-only">(current)</span></a>
                     </li>
-                   
                     <li class="nav-item">
+                        <!-- Faq link -->
                         <a class="nav-link" href="faq.html">Faq</a>
                     </li>
-
                     <li class="nav-item dropdown">
+                        <!-- Games dropdown with multiple game links -->
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Games
@@ -46,54 +55,68 @@
                     </li>
                 </ul>
             </div>
+
+            <!-- Logo -->
             <div class="navbar-brand mr-auto ml-0">
-              <a href="https://lifeisstrange.square-enix-games.com/en-gb/" target="_blank">
-                <img src="https://fyre.cdn.sewest.net/siren/603e3acdf34ffb001a3e74fb/lis-tc-logo-WkEcjUA_Y.png" alt="Logo" class="logo-img">
-              </a>
+                <a href="https://lifeisstrange.square-enix-games.com/en-gb/" target="_blank">
+                    <img src="https://fyre.cdn.sewest.net/siren/603e3acdf34ffb001a3e74fb/lis-tc-logo-WkEcjUA_Y.png" alt="Logo"
+                        class="logo-img">
+                </a>
             </div>
         </div>
     </nav>
 
+    <!-- Main image and video container -->
     <div class="image-container">
-      <div class="video-overlay">
-        <iframe width="100%" height="100%"
-          src="https://www.youtube.com/embed/b6CkzwVAr0M" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <button type="button" class="btn btn-warning" id="button" onclick="scrollToGif()">Buy</button>
-
-      </div>
-      <img src="https://gametimers.it/wp-content/uploads/2021/09/life-is-strange-3-true-colors.jpg" alt="main"
-        class="first-img">
+        <div class="video-overlay">
+            <!-- YouTube video embed -->
+            <iframe width="100%" height="100%"
+                src="https://www.youtube.com/embed/b6CkzwVAr0M" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- Buy button with scroll function -->
+            <button type="button" class="btn btn-warning" id="button" onclick="scrollToGif()">Buy</button>
+        </div>
+        <!-- Main image -->
+        <img src="https://gametimers.it/wp-content/uploads/2021/09/life-is-strange-3-true-colors.jpg" alt="main"
+            class="first-img">
     </div>
 
+    <!-- Separator section with game information -->
     <div class="separator">
-      <h1 class="title">WHAT IS LIFE IS STRANGE?</h1>
+        <h1 class="title">WHAT IS LIFE IS STRANGE?</h1>
+        <!-- Paragraphs describing the game -->
         <p>Life is Strange is a series of award-winning and critically-acclaimed narrative adventure</p>
         <p>games.Discover a universe where everyday heroes wield supernatural powers, while dealing</p>
         <p>with real challenges, real relationships, and real emotions. It's our world... with a twist</p>
         <p>of the strange. No matter your choices, the experience will stay with you forever.</p>
     </div>
 
+    <!-- Gif section with buy buttons -->
     <div class="gif">
-      <h1 class="gif_title">BUY NOW</h1>
-      <div class="button-container">
-        <a href="https://store.playstation.com/it-it/product/EP0082-PPSA02047_00-5779073639566652?_gl=1*czvi0v*_gcl_au*MTc0OTM1MTIwMy4xNjg3NTI0NDA4&_ga=2.15843637.2043358409.1687701526-2133783937.1687524409" target="_blank">
-          <img src="https://www.gamesoul.it/wp-content/uploads/2020/01/ps5-logo-ces-2020-2.jpg" class="button">
-        </a>
-        <a href="https://store.playstation.com/it-it/product/EP0082-PPSA02047_00-5779073639566652?_gl=1*czvi0v*_gcl_au*MTc0OTM1MTIwMy4xNjg3NTI0NDA4&_ga=2.15843637.2043358409.1687701526-2133783937.1687524409" target="_blank">
-          <img src="https://i.pinimg.com/474x/44/60/0a/44600a9ca52c882fa910b63b760ab8f5--ps-news-tech-news.jpg" class="button">
-        </a>
-        <a href="https://www.xbox.com/it-it/games/store/life-is-strange-true-colors-ultimate-edition/9p0j4mfck2mw?_gl=1*1je6zqo*_gcl_au*MTc0OTM1MTIwMy4xNjg3NTI0NDA4&_ga=2.210290070.2043358409.1687701526-2133783937.1687524409&utm_source=etailers&utm_medium=internal_sqex&rtc=1" target="_blank">
-          <img src="https://w0.peakpx.com/wallpaper/96/100/HD-wallpaper-xbox-series-x-black-fallguys-galaxy-logo-videogames-white-xbox-xboxseriesx.jpg" class="button">
-        </a>
-        <a href="https://store.steampowered.com/app/936790/Life_is_Strange_True_Colors/" target="_blank">
-          <img src="https://www.pngkit.com/png/detail/269-2699509_now-white-steam-icon-png.png" class="button">
-        </a>
-      </div>
+        <h1 class="gif_title">BUY NOW</h1>
+        <!-- Container for buy buttons linked to different platforms -->
+        <div class="button-container">
+            <a href="https://store.playstation.com/it-it/product/EP0082-PPSA02047_00-5779073639566652?_gl=1*czvi0v*_gcl_au*MTc0OTM1MTIwMy4xNjg3NTI0NDA4&_ga=2.15843637.2043358409.1687701526-2133783937.1687524409"
+                target="_blank">
+                <img src="https://www.gamesoul.it/wp-content/uploads/2020/01/ps5-logo-ces-2020-2.jpg" class="button">
+            </a>
+            <a href="https://store.playstation.com/it-it/product/EP0082-PPSA02047_00-5779073639566652?_gl=1*czvi0v*_gcl_au*MTc0OTM1MTIwMy4xNjg3NTI0NDA4&_ga=2.15843637.2043358409.1687701526-2133783937.1687524409"
+                target="_blank">
+                <img src="https://i.pinimg.com/474x/44/60/0a/44600a9ca52c882fa910b63b760ab8f5--ps-news-tech-news.jpg"
+                    class="button">
+            </a>
+            <a href="https://www.xbox.com/it-it/games/store/life-is-strange-true-colors-ultimate-edition/9p0j4mfck2mw?_gl=1*1je6zqo*_gcl_au*MTc0OTM1MTIwMy4xNjg3NTI0NDA4&_ga=2.210290070.2043358409.1687701526-2133783937.1687524409&utm_source=etailers&utm_medium=internal_sqex&rtc=1"
+                target="_blank">
+                <img src="https://w0.peakpx.com/wallpaper/96/100/HD-wallpaper-xbox-series-x-black-fallguys-galaxy-logo-videogames-white-xbox-xboxseriesx.jpg"
+                    class="button">
+            </a>
+            <a href="https://store.steampowered.com/app/936790/Life_is_Strange_True_Colors/" target="_blank">
+                <img src="https://www.pngkit.com/png/detail/269-2699509_now-white-steam-icon-png.png" class="button">
+            </a>
+        </div>
     </div>
 
-
-
+    <!-- JavaScript and Bootstrap scripts -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
         integrity="sha384-UO2eT0zrG7Qg2v9VmCg8p6eL+avu6sP2m0z3/wGBPEqxhLoNqXq6dPvMvuxGyicR" crossorigin="anonymous"></script>
@@ -101,12 +124,13 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
-        <script>
-          function scrollToGif() {
+    <!-- JavaScript function to scroll to the gif section -->
+    <script>
+        function scrollToGif() {
             const gifSection = document.querySelector('.gif');
             gifSection.scrollIntoView({ behavior: 'smooth' });
-          }
-        </script>
+        }
+    </script>
 
 </body>
 
